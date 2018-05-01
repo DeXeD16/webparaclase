@@ -1,0 +1,24 @@
+
+
+
+
+.bg-dark{
+	background-color:  #4B4D4E!important;
+}
+
+
+.media img{
+	width: 35%;
+}
+
+
+
+.cletra{
+	/*amarillo*/
+	color: #DDD55C!important;
+}
+
+/*para centrar el texto*/
+.centrar{
+	text-align:center;
+}

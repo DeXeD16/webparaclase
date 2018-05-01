@@ -7,55 +7,225 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!--mi estilo-->
+    <link rel="stylesheet" href="css/style.css" >
+    <!--font awesome-->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
 
-    <title>PruebaBootstrap</title>
+    <title>GitHub - Inicio</title>
   </head>
   <body>
+    <!--navbar bootstrap-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      
+      <a class="navbar-brand" href="index.html">
+        <i class="fab fa-github"></i> GitHub
+      </a>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      
         <span class="navbar-toggler-icon"></span>
+      
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!--menu collapsable-->
+      
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
+      
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+      
+            <a class="nav-link" href="informacion.html">Informacion</a>
+      
           </li>
+      
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+      
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tutoriales
+      
             </a>
+      
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+      
+              <a class="dropdown-item" href="cuenta.html">Cuenta</a>
+      
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+      
+              <a class="dropdown-item" href="repositorio.html">Creacion de un repositorio</a>
+      
+              <div class="dropdown-divider"></div>
+      
+              <a class="dropdown-item" href="git.html">Uso git</a>
+      
             </div>
+      
           </li>
+      
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+      
+            <a class="nav-link " href="contacto.html">Contacto</a>
+      
           </li>
+      
+          <li class="nav-item">
+      
+            <a class="nav-link " href="sobrenosostros.html">Sobre nosotros</a>
+      
+          </li>
+      
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <!-- formulario para ingresar-->
+        <form class="form-inline m-2">
+      
+          <div class="form-group ">
+      
+            <label for="inputEmail" class="sr-only">Email</label>
+      
+            <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+      
+          </div>
+      
+          <div class="form-group m-2">
+      
+            <label for="inputPassword2" class="sr-only">Password</label>
+      
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+      
+          </div>
+      
+          <button type="submit" class="btn btn-primary">Identificate</button>
+      
         </form>
+      
       </div>
+    
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 border">
-          helloodfhglisdhfglidfsvlnl
-        </div>
-      </div>
-    </div>
+    <dciv class="container">
+      <!--grupo de tarjetas-->
+      <div class="card-group my-3 "> 
 
+          <div class="card border border-secondary mx-5" >
+            
+            <div class="card-body">
+              
+
+              <h3 class="card-title">
+                GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de computadora.
+              </h3>
+
+              <p class="card-text">
+                El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. Anteriormente era conocida como Logical Awesome LLC. El código de los proyectos alojados en GitHub se almacena típicamente de forma pública, aunque utilizando una cuenta de pago, también permite hospedar repositorios privados.
+              </p>
+              
+            </div>
+
+          </div>
+        
+          <div class="card border border-secondary mx-5" >
+            
+            <h3 class="card-title centrar">
+
+              Comienza a usar GitHub
+
+            </h3>
+
+            <img class="card-img-top" src="img/githubinfo.png" alt="tutorialindex">
+            
+            <div class="card-body">
+            
+              
+            
+                <p class="card-text">
+            
+                  Nuestra guia rapida para empezar a utilizar el portal mas popular para compartir tus proyectos
+            
+                </p>
+            
+              
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Tutoriales
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Tutoriales</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Aqui tienes nuestros tutoriales
+                      <ul>
+                        <li>
+                          <a href="cuenta.html">Uso de la cuenta</a>
+                        </li>
+                        <li>
+                          <a href="repositorio.html">Creacion y mantenimiento de nuestros repositorios</a>
+                        </li>  
+                        <li>  
+                          <a href="git.html">Uso de git</a>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          
+          </div>
+
+      </div>
+      
+     
+      <!--carrusel con indicadores-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        
+        </ol>
+
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+          
+            <img class="d-block w-100" src="img/github.png" alt="First slide">
+          
+          </div>
+          
+          <div class="carousel-item">
+          
+            <img class="d-block w-100" src="img/git-github.jpg" alt="Second slide">
+          
+          </div>
+          
+          <div class="carousel-item">
+          
+            <img class="d-block w-100" src="img/laptop.jpg" alt="Third slide">
+          
+          </div>
+        
+        </div>
+     
+      </div>
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js" ></script>

@@ -1,0 +1,186 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!--mi estilo-->
+    <link rel="stylesheet" href="css/style.css" >
+    <!--font awesome-->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+
+    <title>GitHub - Informacion</title>
+  </head>
+  <body>
+    <!--navbar bootstrap-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      
+      <a class="navbar-brand" href="index.html">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
+
+      <!--menu collapsable-->
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+        <ul class="navbar-nav mr-auto">
+      
+          <li class="nav-item">
+      
+            <a class="nav-link" href="informacion.html">Informacion</a>
+      
+          </li>
+      
+          <li class="nav-item dropdown">
+      
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tutoriales
+      
+            </a>
+      
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      
+              <a class="dropdown-item" href="cuenta.html">Cuenta</a>
+      
+              <div class="dropdown-divider"></div>
+      
+              <a class="dropdown-item" href="repositorio.html">Creacion de un repositorio</a>
+      
+              <div class="dropdown-divider"></div>
+      
+              <a class="dropdown-item" href="git.html">Uso git</a>
+      
+            </div>
+      
+          </li>
+      
+          <li class="nav-item">
+      
+            <a class="nav-link " href="contacto.html">Contacto</a>
+      
+          </li>
+      
+          <li class="nav-item">
+      
+            <a class="nav-link " href="sobrenosostros.html">Sobre nosotros</a>
+      
+          </li>
+      
+        </ul>
+        <!-- formulario para ingresar-->
+        <form class="form-inline m-2">
+      
+          <div class="form-group ">
+      
+            <label for="inputEmail" class="sr-only">Email</label>
+      
+            <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+      
+          </div>
+      
+          <div class="form-group m-2">
+      
+            <label for="inputPassword2" class="sr-only">Password</label>
+      
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+      
+          </div>
+      
+          <button type="submit" class="btn btn-primary">Identificate</button>
+      
+        </form>
+      
+      </div>
+    
+    </nav>
+
+    <div class="container">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Organizacion de cada proyecto
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <h2>Características de la pagina de proyecto.</h2>
+              <ul>
+                <li>Página web para cada proyecto.</li>
+                <li>Gráfico para ver cómo los desarrolladores trabajan en sus repositorios y bifurcaciones del proyecto.</li>
+                <li>Funcionalidades como si se tratase de una red social, por ejemplo, seguidores.</li>
+                <li>Herramienta para trabajo colaborativo entre programadores.</li>
+                <li>Gestor de proyectos de estilo Kanban.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                GitHub, un servicio para mantener tu código a salvo de peligro
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Todos sabemos que las copias de seguridad de nuestros datos son importantes, tanto si son fotografías, ficheros o código de programación. Las alternativas siempre son las mismas: la nube usando Dropbox o Drive, en local usando discos duros aparte de los que empleamos para nuestro uso diario, pero en el caso del código tenemos una alternativa mucho mejor: los repositorios Git. Esta clase de repositorios son una copia local del código generado con una característica muy importante, y es que podemos hacer varias versiones para poder recular si nos hemos equivocado y nuestra aplicación ya no funciona, o para trabajar en funcionalidades nuevas sin necesidad de modificar la versión funcional y así no romper el proyecto. Esta es la premisa más básica de los repositorios de código, pero seguimos sin solucionar el tema de que se mantiene en local. Si nuestra máquina se estropea y deja de funcionar, corrompiendo el disco duro, no podemos recuperar todo el trabajo realizado. Es por ello que nacen servicios como GitHub, BitBucked u otros similares que pretenden llenar ese vacío.
+
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Uso de git para sincronizar el proyecto
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Entonces, ¿cómo trabajaremos con repositorios Git y más concretamente sincronizando con Github? Al principio del proyecto, cuando estemos preparando todo el entorno, nosotros haremos una base de la que vamos a partir, ya estemos en solitario o con compañeros. Esta base la vamos a tener como algo funcional pero no definitivo. Esto significa que, por poner un ejemplo, si tenemos una web con unos estilos concretos y una estructura que ya hemos definido, vamos a crear algo parecido a una plantilla de la que todos los integrantes del grupo de trabajo podrán partir. Esto no significa que debe ser el resultado final de nuestro producto, por supuesto, porqué entonces no tendría sentido usar git. Debemos presentarlo como el esqueleto de donde cada uno podrá dar a luz las distintas partes necesarias para el producto final mencionado.
+            </div>
+          </div>
+          <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Ventajas de hospedar el código en GitHub
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              Al alojar el código, podemos decidir si éste será público o su visibilidad estará limitada a unos usuarios determinados, que son los únicos que tendrán permiso para acceder al mismo y subir cambios.
+
+              Pero además de servir de alojamiento para el código, GitHub posee un estupendo visor de código mediante el cual, a través del navegador, podremos consultar en un instante el contenido de un determinado fichero, con su resaltado de sintaxis correspondiente para el lenguaje en el que esté escrito 
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
